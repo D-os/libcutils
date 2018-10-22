@@ -36,7 +36,7 @@ add_library(cutils SHARED
 
     "../log.c"
 )
-target_compile_options(cutils PRIVATE -fno-threadsafe-statics)
+target_compile_options(cutils PRIVATE -fno-threadsafe-statics -fPIC)
 target_link_libraries(cutils pthread)
 set_target_properties(cutils PROPERTIES LINKER_LANGUAGE C)
 
