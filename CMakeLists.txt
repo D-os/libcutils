@@ -48,3 +48,5 @@ add_executable(libcutils_test
                 "str_parms_test.cpp"
 )
 target_link_libraries(libcutils_test cutils gtest gtest_main)
+
+gtest_discover_tests(libcutils_test)
