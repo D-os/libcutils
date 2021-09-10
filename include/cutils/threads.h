@@ -33,7 +33,7 @@ extern "C" {
 // Deprecated: use android::base::GetThreadId instead, which doesn't truncate on Mac/Windows.
 //
 
-extern pid_t gettid();
+//extern pid_t gettid();
 
 //
 // Deprecated: use `_Thread_local` in C or `thread_local` in C++.
